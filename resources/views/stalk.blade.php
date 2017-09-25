@@ -72,7 +72,11 @@
 								<div class="form-group" style="border: 2px solid #CCCCCC; border-radius: 12px; padding-top: 20px; padding-bottom: 20px;">
 									<div class="col-lg-12">
 										<p style="word-wrap: break-word;">{{ $feed->feed}}</p>
-										<small>{{ $feed->created_at }}</small>
+										<small style="float: right;">- 
+											<?php
+												echo Carbon\Carbon::parse($feed->created_at)->diffForHumans();
+											 ?>
+										 </small>
 									</div>
 								</div>
 							@endforeach

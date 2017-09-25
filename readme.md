@@ -1,5 +1,5 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"><br>
-<img src="https://digitalscientists.com/system/images/562/original/logo-ionic-framework-thick.svg"></p>
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg" style="height:150px;"><br>
+<img src="https://digitalscientists.com/system/images/562/original/logo-ionic-framework-thick.svg" style="height:150px;"></p>
 
 ## Setup Laravel Website
 <p>
@@ -10,6 +10,7 @@
 		<li>php artisan migrate</li>
 	</ul>
 </p>
+
 ## Setup Ionic Mobile App
 <p>
 	<ul>

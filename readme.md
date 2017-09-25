@@ -1,5 +1,5 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg" style="height:150px;"><br>
-<img src="https://digitalscientists.com/system/images/562/original/logo-ionic-framework-thick.svg" style="height:100px;"></p>
+<img src="https://digitalscientists.com/system/images/562/original/logo-ionic-framework-thick.svg" style="height:100px; width:25%;"></p>
 
 ## Setup Laravel Website
 <p>

@@ -24,7 +24,7 @@
 							<div class="col-lg-5">
 							</div>
 							<div class="col-lg-5">
-								<img src="uploads/avatars/{{ Auth::user()->avatar }}" id="imgProfile" style="width:150px; height:150px; float:left; border-radius:50%; margin-right:25px;"  onclick="$('#imgupload').trigger('click'); return false;">
+								<img src="uploads/avatars/{{ Auth::user()->avatar }}" id="imgProfile" style="width:150px; height:150px; float:left; border-radius:50%; margin-right:25px; cursor: pointer;"  onclick="$('#imgupload').trigger('click'); return false;">
 								<input id="imgupload" type="file" name="avatar" style="display: none;" accept="image/*" onchange="readURL(this);">
 								<input type="hidden" name="_token" value="{{ csrf_token() }}">
 							</div>

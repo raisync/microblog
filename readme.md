@@ -16,6 +16,6 @@
 	<ul>
 		<li>cd mobile_app</li>
 		<li>npm install</li>
-		ionic serve
+		<li>ionic serve</li>
 	</ul>
 </p>
